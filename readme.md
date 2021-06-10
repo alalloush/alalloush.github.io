@@ -10,3 +10,4 @@
 - [ ] Add site to Github
 - [ ] New Wiremap
 - [ ] Documentation
+- [ ] Add German Switch
