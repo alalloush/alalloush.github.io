@@ -26,7 +26,7 @@
                 <a class="navbar-item" href="index.html">
                     <img src="img/Logo.png" alt="Logo">
                 </a>
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <a role="button" class="navbar-burger burger is-clipped" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -64,7 +64,7 @@
                         </a>
                     </span>
                     <span class="navbar-item">
-                        <a class="button is-outlined" href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/landing.html">
+                        <a class="button is-outlined" href="https://github.com/alalloush">
                             <span class="icon">
                                 <i class="fa fa-github"></i>
                             </span>
@@ -73,7 +73,7 @@
                     </span>
 
                     <span class="navbar-item">
-                        <a class="button is-outlined" href="#" onclick="switchLang()">
+                        <a class="button is-outlined" onclick="switchLang()">
                             <span class="icon">
                                 <i class="fas fa-language"></i>
                             </span>
@@ -92,15 +92,13 @@
 
       <!--Main Hero-->
     <section class="hero is-dark is-medium">
-
-
-
-
             <!--Hero Body-->
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-vcentered">
-                        <div class="column"><!-- My profile Block-->
+
+                        <!-- Intro-->
+                        <div class="column">
                             <div class="card has-text-centered">
                                 <div class="card-image" width="100">
                                     <figure class="image is-3by4">
@@ -150,7 +148,8 @@
                             </div>
                         </div>
 
-                        <div class="column"> <!-- Skills Block-->
+                        <!-- Skills-->
+                        <div class="column"> 
                             <div class="card has-text-centered ">
                                 <header class="card-header">
                                     <p lang="en" class="card-header-title is-centered">
@@ -159,6 +158,11 @@
                                     <p lang="de" class="card-header-title is-centered is-hidden">
                                         Fähigkeiten
                                     </p>
+                                    <div class="card-header-icon">
+                                        <span class="icon">
+                                            <i class="fas fa-briefcase"></i>
+                                        </span>
+                                    </div>
                                 </header>
 
                                 <div class="card-content columns">
@@ -239,49 +243,65 @@
 
                         </div>
                     </div>
-                    
-
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section class ="hero is-info is-halfheight">
-
-        <div class="container columns is-multiline is-vcentered">
-            <div class="column is-half"> <!-- Languages Block-->
-                <div class="card">
-                    <header class="card-header">
-                      <p class="card-header-title">
-                        Languages
-                      </p>
-                      <div class="card-header-icon">
-                        <span class="icon">
-                          <i class="fas fa-language"></i>
-                        </span>
+    <section class ="hero is-info is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <!-- Languages-->
+                    <div class="column"> 
+                        <div class="card">
+                            <header class="card-header">
+                                <p lang="en" class="card-header-title is-centered">
+                                    Languages
+                                </p>
+                                <p lang="de" class="card-header-title is-centered is-hidden">
+                                    Sprachen
+                                </p>
+                                <div class="card-header-icon">
+                                    <span class="icon">
+                                    <i class="fas fa-language"></i>
+                                    </span>
+                                </div>
+                            </header>
+                            <footer class="card-footer">
+                                <span class="card-footer-item">English</span>
+                                <span class="card-footer-item">German</span>
+                                <span class="card-footer-item">Arabic</span>
+                            </footer>
+                        </div>
                     </div>
-                    </header>
-                    <footer class="card-footer">
-                        <span class="card-footer-item">English</span>
-                        <span class="card-footer-item">German</span>
-                        <span class="card-footer-item">Arabic</span>
-                    </footer>
-                  </div>
-            </div>
+    
+                    <!--Portfolio-->
+                    <div class ="column is-half">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="card-header-title is-centered">
+                                    Portfolio
+                                </p>
 
-            <!--Portfolio Part-->
-            <div class ="column is-half">
-                <div class="card">
-                    <div class="card-header">
-                        <p class="card-header-title is-centered">
-                            Portfolio
-                        </p>
+                                <div class="card-header-icon">
+                                    <span class="icon">
+                                    <i class="fas fa-briefcase"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
-                
             </div>
+
+
+
         </div>
+
+
+        
 
 
 
@@ -289,6 +309,7 @@
     </section>
 </body>
 
+<!--Footer-->
 <footer class="footer">
     <button class="button" onclick="toggleModal()">Impressum</button>
     <div class="modal">
