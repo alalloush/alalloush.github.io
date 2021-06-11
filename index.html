@@ -92,7 +92,7 @@
       </nav>
 
       <!--Main Hero-->
-    <section class="hero is-dark is-medium">
+    <section class="hero is-dark is-fullheight">
             <!--Hero Body-->
             <div class="hero-body">
                 <div class="container">
@@ -249,7 +249,11 @@
         </div>
     </section>
 
+
+    <!--Hero 2-->
     <section class ="hero is-info is-fullheight">
+
+        <!--Hero Body-->
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-vcentered">
@@ -302,36 +306,46 @@
         </div>
 
 
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-right">
+      <div class="container">
+        <ul>
+            <li><a href="https://bulma.io">This website was made using Bulma</a></li>
+            <li><a onclick="toggleModal()" lang="en">Imprint</a></li>
+            <li><a class="is-hidden" onclick="toggleModal()" lang="de">Impressum</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
         
 
+  <!--Imprint/Impressum Modal-->
+
+  <div class="modal has-text-black">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p lang="en" class="modal-card-title">Imprint</p>
+            <p lang ="de" class="modal-card-title is-hidden">Impressum</p>
+            <button class="delete" onclick="toggleModal()" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <span lang="en" class="is-size-4">Contact</span>
+            <span lang="de" class="is-size-4 is-hidden">Kontact</span><br>
+            <span> Alhusein Alloush</span><br>
+            <span> Kirschallee 3a</span><br>
+            <span> 53115, Bonn</span> <br>
+            <span> <a href="alhusein.alloush@gmail.com">alhusein.alloush@gmail.com</a></span>
+          </section>
+    </div>
+    
+  </div>
 
 
 
     </section>
 </body>
-
-<!--Footer-->
-<footer class="footer">
-    <button class="button" onclick="toggleModal()">Impressum</button>
-    <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title">Impressum</p>
-                <button class="delete" onclick="toggleModal()" aria-label="close"></button>
-              </header>
-              <section class="modal-card-body">
-                <span class="is-size-4">Contact</span><br>
-                <span> Alhusein Alloush</span><br>
-                <span> Kirschallee 3a</span><br>
-                <span> 53115, Bonn</span> <br>
-                <span> <a href="alhusein.alloush@gmail.com">alhusein.alloush@gmail.com</a></span>
-              </section>
-        </div>
-        
-      </div>
-      <button class="button" onclick="jumper()">Test</button>
-</footer>
 
 
 </html>
