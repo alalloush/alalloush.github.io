@@ -23,7 +23,7 @@ function toggleModal(){
     modal.classList.toggle('is-active');
 }
   
-//$('[lang="de"]').toggle('is-active');
+//Language Switcher
 function switchLang(){
 
     Array.from(document.querySelectorAll('[lang="de"]'))
@@ -31,10 +31,9 @@ function switchLang(){
 
     Array.from(document.querySelectorAll('[lang="en"]'))
     .forEach(el =>el.classList.toggle("is-hidden"))
-
 }
 
-
+//Jump to top of page
 function jumper(){
     element.scrollIntoView(alignToTop)
     //document.getElementById("").scrollIntoView({behavior: 'smooth'});
