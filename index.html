@@ -14,6 +14,7 @@
 
     <!-- My scripts-->
     <script src="/js/script.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -40,11 +41,12 @@
                 <div class="navbar-end">
                     <div class="tabs is-right">
                     <span class="navbar-item">
-                        <a class="button is-outlined" href="#">
+                        <a class="button is-outlined" href="#" onclick="switchLang()">
                             <span class="icon">
                                 <i class="fa fa-superpowers"></i>
                             </span>
-                            <span>About Me</span>
+                            <span lang="en">About Me</span>
+                            <span lang="de" class="is-hidden">Über mich</span>
                         </a>
                     </span>
                     <span class="navbar-item">
@@ -52,7 +54,10 @@
                             <span class="icon">
                                 <i class="fa fa-book"></i>
                             </span>
-                            <span>My Skills</span>
+                            <span lang="en">Skills</span>
+                            <span lang="de" class="is-hidden">Fähigkeiten</span>
+
+
                         </a>
                     </span>
                     <span class="navbar-item">
@@ -60,11 +65,23 @@
                             <span class="icon">
                                 <i class="fa fa-github"></i>
                             </span>
-                            <span>My Portfolio</span>
+                            <span>Portfolio</span>
                         </a>
                     </span>
-                </div></div>
+
+                    <span class="navbar-item">
+                        <a class="button is-outlined" href="#" onclick="switchLang()">
+                            <span class="icon">
+                                <i class="fa fa-superpowers"></i>
+                            </span>
+                            <span lang="en">German</span>
+                            <span lang="de" class="is-hidden">English</span>
+                        </a>
+                    </span>
+                </div>
+                </div>
             </div>
+
         </div>
 
 
@@ -83,13 +100,16 @@
                               <div class="media">
                                 
                                 <div class="media-content">
-                                  <p class="title is-4 has-text-black">Alhusein Alloush</p>
-                                  <p class="subtitle is-6 has-text-black">Programmer with a passion for design</p>
+                                  <p class="title is-4 has-text-black">Al Alloush</p>
+                                  <button class="button" onclick="switchLang()">Test</button>
+                                  <p lang="en" class="subtitle is-6 has-text-black">Programmer with a passion for design</p>
+                                  <p lang="de" class="subtitle is-6 has-text-black is-hidden">Programmierer mit einer Leidenschaft für Design</p>
                                 </div>
                               </div>
                           
                                 <div class="content">
-                                I'm a Computer Science student currently loving life in Bonn, Germany and finishing up my bachelors degree.
+                                <p lang="en">I'm a Computer Science student currently loving life in Bonn, Germany and finishing up my bachelors degree.</p>
+                                <p lang="de" class="is-hidden">Ich bin Informatikstudent und liebe das Leben in Bonn, Deutschland, und beende meinen Bachelor-Abschluss.</p>
                                 </div>
                             </div>
 
@@ -124,8 +144,11 @@
                     <div class="column is-half"> <!-- Skills Block-->
                         <div class="card has-text-centered ">
                             <header class="card-header">
-                                <p class="card-header-title is-centered">
+                                <p lang="en" class="card-header-title is-centered">
                                     My Skills
+                                </p>
+                                <p lang="de" class="card-header-title is-centered is-hidden">
+                                    Fähigkeiten
                                 </p>
                             </header>
 
@@ -135,8 +158,11 @@
                                 <!--Programming Card-->
                                 <div class="card has-text-centered column">
                                     <header class="card-header">
-                                        <p class="card-header-title is-centered">
+                                        <p lang="en" class="card-header-title is-centered">
                                             Programming
+                                        </p>
+                                        <p lang="de" class="card-header-title is-centered is-hidden">
+                                            Programmierung
                                         </p>
                                         <span class="card-header-icon">
                                             <i class="far fa-file-code"></i>
@@ -209,7 +235,8 @@
                             <div class="columns is-variable">
                                 <div class="box column ml-5 mr-5">
                                     <div class="block">
-                                        <span class="title is-5 has-text-black">Programming</span> 
+                                        <span lang="en" class="title is-5 has-text-black">Programming</span> 
+                                        <span lang="de" class="title is-5 has-text-black is-hidden">Programmierung</span>
                                     </div>
                                    <table class="table is-hoverable is-fullwidth">
                                         <tbody>
@@ -338,6 +365,7 @@
         </div>
         
       </div>
+      <button class="button" onclick="jumper()">Test</button>
 </footer>
 
 
