@@ -8,6 +8,8 @@ I've tried to build this website using only bulma for css and with minimal extra
 - [ ] Documentation
 - [ ] Add Portfolio
 - [ ] Fix CV
+- [x] Add Favicon
+- [x] Fix Footer
 - [x] Design New Logo
 - [x] Add Impressum
 - [x] Add site to Github
