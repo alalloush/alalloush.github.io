@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.9.2-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-
+    <!-- Bulma Modal FX
+    https://postare.github.io/bulma-modal-fx/-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     <!-- My scripts-->
     <script src="/js/script.js" type="text/javascript"></script>
 
@@ -219,11 +221,18 @@
                                     <div class="card has-text-centered column">
                                         <header class="card-header">
                                             <p class="card-header-title is-centered">
-                                                Design
+                                                <span class="has-text-centered">Design</span> 
                                             </p>
-                                            <span class="card-header-icon">
-                                                <i class="fas fa-paint-brush"></i>
-                                            </span>
+
+                                            
+                                            <div class="card-header-icon">
+                                                <span class="icon">
+                                                    <i class="fas fa-paint-brush"></i>
+                                                </span>
+                                                
+                                            </div>
+
+                                              
                                         </header>
                                         <div class="card-content">
                                             <table class="table is-hoverable is-fullwidth">
@@ -297,7 +306,61 @@
                                     </span>
                                 </div>
                             </div>
+
+
+                            <div class="card-content columns">
+
+
+                                <!--Project 1 Card-->
+                                <div class="column">
+                                    <div class="card">
+                                      <div class="card-image">
+                                        <figure class="image is-16by9">
+                                          <img src="img/project1.webp" class="modal-button" data-target="modal-image">
+                                        </figure>
+                                      </div>
+                                      <div class="card-content">
+                                        <div class="content has-text-centered">
+                                          <h4>This Website!</h4>
+                                          <p>This website is open source, click on the image to view, or click on the button to go to the Github page for the project.</p>
+                                          <a class="button is-info modal-button" href="https://github.com/alalloush/alalloush.github.io">Github</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                                                  <!--Project 1 Card Again-->
+                                <div class="column">
+                                    <div class="card">
+                                      <div class="card-image">
+                                        <figure class="image is-16by9">
+                                          <img src="img/project1.webp" class="modal-button" data-target="modal-image">
+                                        </figure>
+                                      </div>
+                                      <div class="card-content">
+                                        <div class="content has-text-centered">
+                                          <h4>Totally not the same Website again!</h4>
+                                          <p>Posted so I can see how the cards look next to each other</p>
+                                          <a class="button is-info modal-button" href="https://github.com/alalloush/alalloush.github.io">Github</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+
+
+
+
+
+
+
+                            </div>
                         </div>
+
+                
                         
                     </div>
                 </div>
@@ -314,23 +377,30 @@
       <div class="container">
         <ul>
             <li><a href="https://bulma.io">This website was made using Bulma</a></li>
-            <li><a onclick="toggleModal()" lang="en">Imprint</a></li>
-            <li><a class="is-hidden" onclick="toggleModal()" lang="de">Impressum</a></li>
+            <li><a class="modal-button" data-target="imprint-modal" lang="en">Imprint</a></li>
+            <li><a class="modal-button is-hidden" data-target="imprint-modal" lang="de">Impressum</a></li>
         </ul>
       </div>
     </nav>
   </div>
-        
+    
+  <!--Modals-->
+
+    <!--Project 1-->
+    <div id="modal-image" class="modal modal-fx-fadeInScale">
+        <div class="modal-background"></div>
+        <div class="modal-content is-huge is-image">
+            <img src="img/project1.webp" alt="Project 1">
+        </div>
+        </div>
 
   <!--Imprint/Impressum Modal-->
-
-  <div class="modal has-text-black">
+  <div id="imprint-modal" class="modal modal-fx-fadeInScale has-text-black">
     <div class="modal-background"></div>
     <div class="modal-card">
         <header class="modal-card-head">
             <p lang="en" class="modal-card-title">Imprint</p>
             <p lang ="de" class="modal-card-title is-hidden">Impressum</p>
-            <button class="delete" onclick="toggleModal()" aria-label="close"></button>
           </header>
           <section class="modal-card-body">
             <span lang="en" class="is-size-4">Contact</span>
@@ -347,6 +417,9 @@
 
 
     </section>
+
+    <!--Bulma Modal FX Post load JS-->
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
 </body>
 
 
