@@ -36,7 +36,8 @@ function switchLang(){
 
 
 function jumper(){
-    document.getElementById("").scrollIntoView({behavior: 'smooth'});
+    element.scrollIntoView(alignToTop)
+    //document.getElementById("").scrollIntoView({behavior: 'smooth'});
 
 
 }
