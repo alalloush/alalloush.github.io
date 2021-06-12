@@ -21,6 +21,10 @@ No extra CSS added
 * Flex cards
 * Smooth Scrolling
 
+## Icon
+![Icon](https://github.com/alalloush/alalloush.github.io/blob/master/img/Logo.svg?raw=true)
+
+
 ## Wireframe
 ![Wireframe](https://github.com/alalloush/alalloush.github.io/blob/master/doc/Wireframe.webp?raw=true)
 
