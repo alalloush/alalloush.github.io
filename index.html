@@ -53,7 +53,7 @@
 
                         <!--About me Navbar Item-->
                         <span class="navbar-item">
-                            <a class="button is-dark is-outlined" href="#">
+                            <a class="button is-dark is-outlined" onclick="jumper('home')">
                                 <div class="icon-text">
                                     <span class="icon">
                                         <i class="fas fa-user" aria-hidden="true"></i>
@@ -111,14 +111,14 @@
       </nav>
 
       <!--Main Hero-->
-    <section class="hero is-dark is-fullheight">
+    <section id="home" class="hero is-dark is-fullheight">
             <!--Hero Body-->
             <div class="hero-body">
                 <div class="container">
-                    <div class="columns is-vcentered">
+                    <div class="columns is-vcentered is-multiline">
 
                         <!-- Intro-->
-                        <div class="column is-4">
+                        <div class="column is-offset-1">
                             <div class="card has-text-centered">
                                 <div class="card-image" width="100">
                                     <figure class="image is-3by4">
@@ -172,8 +172,10 @@
                             </div>
                         </div>
 
+                        <div class="container">
+                            <div class="columns is-vcentered is-multiline">
                         <!-- Skills-->
-                        <div class="column"> 
+                        <div class="column is-7"> 
                             <div class="card has-text-centered ">
                                 <header class="card-header">
                                     <p lang="en" class="card-header-title is-centered">
@@ -272,68 +274,78 @@
                                 </div> 
                             </div>
                         </div>
+
+                        <!-- Languages-->
+                        <div class="column is-7"> 
+                            <div class="card">
+                                <header class="card-header">
+                                    <p lang="en" class="card-header-title is-centered">
+                                        Languages
+                                    </p>
+                                    <p lang="de" class="card-header-title is-centered is-hidden">
+                                        Sprachen
+                                    </p>
+                                    <div class="card-header-icon">
+                                        <span class="icon">
+                                        <i class="fas fa-language"></i>
+                                        </span>
+                                    </div>
+                                </header>
+                                <footer class="card-footer">
+                                    <span lang="en" class="card-footer-item">English</span>
+                                    <span lang="de" class="card-footer-item is-hidden">Englisch</span>
+                                    <span lang="en" class="card-footer-item">German</span>
+                                    <span lang="de" class="card-footer-item is-hidden">Deutsch</span>
+                                    <span lang="en" class="card-footer-item">Arabic</span>
+                                    <span lang="de" class="card-footer-item is-hidden">Arabisch</span>
+                                </footer>
+                            </div>
+                        </div>
+                            </div></div>
+
+
+                            
                     </div>
                 </div>
+            </div>
+            <div class="hero-foot has-text-centered container">
+                <nav class="tabs is-boxed is-fullwidth">
+                    <div class="container">
+                        <ul>
+                          <li class="is-active">
+                            <a class="has-text-black has-text-weight-light" onclick="jumper('hero2')">
+                                <div class="icon-text">
+                                    <span class="icon">
+                                        <i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <span class="has-text-centered has-text-weight-light" lang="en">Make sure to scroll down!</span>
+                                    <span lang="de" class="is-hidden">Herunterscrollen</span>
+                                </div>
+                            </a>
+                          </li>
+                        </ul>
+                    </div> 
+                </nav>
             </div>
         </div>
     </section>
 
-
     <!--Hero 2-->
-    <section class ="hero is-info is-fullheight">
+    <section  id="hero2" class ="hero is-info is-fullheight-with-navbar has-text-centered">
+        <div class="hero-head"> 
+            <div class="container">
+                <p class="title pt-3">
+                    Portfolio
+                  </p>
 
+            </div>
+        </div>
         <!--Hero Body-->
         <div class="hero-body">
             <div class="container">
-                <div class="columns is-vcentered">
-                    <!-- Languages-->
-                    <div class="column"> 
-                        <div class="card">
-                            <header class="card-header">
-                                <p lang="en" class="card-header-title is-centered">
-                                    Languages
-                                </p>
-                                <p lang="de" class="card-header-title is-centered is-hidden">
-                                    Sprachen
-                                </p>
-                                <div class="card-header-icon">
-                                    <span class="icon">
-                                    <i class="fas fa-language"></i>
-                                    </span>
-                                </div>
-                            </header>
-                            <footer class="card-footer">
-                                <span lang="en" class="card-footer-item">English</span>
-                                <span lang="de" class="card-footer-item is-hidden">Englisch</span>
-                                <span lang="en" class="card-footer-item">German</span>
-                                <span lang="de" class="card-footer-item is-hidden">Deutsch</span>
-                                <span lang="en" class="card-footer-item">Arabic</span>
-                                <span lang="de" class="card-footer-item is-hidden">Arabisch</span>
-                            </footer>
-                        </div>
-                    </div>
-    
-                    <!--Portfolio-->
-                    <div class ="column is-half">
-                        <div class="card">
-                            <div class="card-header">
-                                <p class="card-header-title is-centered">
-                                    Portfolio
-                                </p>
-
-                                <div class="card-header-icon">
-                                    <span class="icon">
-                                    <i class="fas fa-briefcase"></i>
-                                    </span>
-                                </div>
-                            </div>
-
-
-                            <div class="card-content columns">
-
-
+                <div class="columns is-multiline">
                                 <!--Project 1 Card-->
-                                <div class="column">
+                                <div class="column is-4">
                                     <div class="card">
                                       <div class="card-image">
                                         <figure class="image is-16by9">
@@ -348,10 +360,9 @@
                                         </div>
                                       </div>
                                     </div>
-                                  </div>
+                                </div>
 
-
-                                                                  <!--Project 1 Card Again-->
+                                <!--Project 1 Card Again-->
                                 <div class="column">
                                     <div class="card">
                                       <div class="card-image">
@@ -367,10 +378,75 @@
                                         </div>
                                       </div>
                                     </div>
-                                  </div>
+                                </div>
+
+                                <!--Project 1 Card Again-->
+                                <div class="column">
+                                    <div class="card">
+                                      <div class="card-image">
+                                        <figure class="image is-16by9">
+                                          <img src="img/project1.webp" class="modal-button" data-target="modal-image">
+                                        </figure>
+                                      </div>
+                                      <div class="card-content">
+                                        <div class="content has-text-centered">
+                                          <h4>Totally not the same Website again!</h4>
+                                          <p>Posted so I can see how the cards look next to each other</p>
+                                          <a class="button is-info modal-button" href="https://github.com/alalloush/alalloush.github.io">Github</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+    
+                    <!--Portfolio-->
+                    <div class ="column">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="card-header-title is-centered">
+                                    Portfolio
+                                </p>
+
+                                <div class="card-header-icon">
+                                    <span class="icon">
+                                    <i class="fas fa-briefcase"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div class="card-content">
+
+                                <div class="columns">
+
+                            </div>
+
+
+                                
+
+                                <!--Project 1 Card Again-->
+                                <div class="column">
+                                    <div class="card">
+                                      <div class="card-image">
+                                        <figure class="image is-16by9">
+                                          <img src="img/project1.webp" class="modal-button" data-target="modal-image">
+                                        </figure>
+                                      </div>
+                                      <div class="card-content">
+                                        <div class="content has-text-centered">
+                                          <h4>Totally not the same Website again!</h4>
+                                          <p>Posted so I can see how the cards look next to each other</p>
+                                          <a class="button is-info modal-button" href="https://github.com/alalloush/alalloush.github.io">Github</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>      
                     </div>
+
+
+
                 </div>
             </div>
         </div>

@@ -34,9 +34,9 @@ function switchLang(){
 }
 
 //Jump to top of page
-function jumper(){
-    element.scrollIntoView(alignToTop)
-    //document.getElementById("").scrollIntoView({behavior: 'smooth'});
 
+function jumper(location){
+    var element = document.getElementById(location);
+    element.scrollIntoView({behavior: 'smooth'})
 
 }
