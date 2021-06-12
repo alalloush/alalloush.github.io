@@ -1,14 +1,16 @@
 # alalloush.github.io
+[Table of Contents](#alalloushgithubio)
+  * [Description](#description)
+  * [Features](#features)
+  * [Wireframe](#wireframe)
+  * [Todo](#todo)
+  
+## Description
 A fully responsive mobile/desktop simple CV/Portfolio website built using:
 * Bulma
 * Bulma Modal FX
 
 No extra CSS added 
-
-[Table of Contents](#alalloushgithubio)
-  * [Features](#features)
-  * [Wireframe](#wireframe)
-  * [Todo](#todo)
 
 ## Features
 * No extra CSS
