@@ -5,6 +5,11 @@ A fully responsive mobile/desktop simple CV/Portfolio website built using:
 
 No extra CSS added 
 
+[Table of Contents](#alalloushgithubio)
+  * [Features](#features)
+  * [Wireframe](#wireframe)
+  * [Todo](#todo)
+
 ## Features
 * No extra CSS
 * Minimal JS
@@ -18,7 +23,7 @@ No extra CSS added
 ![Wireframe](https://github.com/alalloush/alalloush.github.io/blob/master/doc/Wireframe.webp?raw=true)
 
 
-## Todo:
+## Todo
 
 * [ ] Update Portfolio Projects
 * [ ] Fix CV
