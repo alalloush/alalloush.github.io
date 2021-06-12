@@ -14,6 +14,8 @@ No extra CSS added
 * Flex cards
 * Smooth Scrolling
 
+## Wireframe
+![Wireframe](https://github.com/alalloush/alalloush.github.io/blob/master/doc/Wireframe.webp?raw=true)
 
 
 ## Todo:
