@@ -8,8 +8,9 @@
   
 ## Description
 A fully responsive mobile/desktop simple CV/Portfolio website built using:
-* Bulma
-* Bulma Modal FX
+* [Bulma](https://bulma.io)
+* [Bulma Modal FX](https://postare.github.io/bulma-modal-fx/)
+* [FontAwesome](https://fontawesome.com)
 
 No extra CSS added 
 
@@ -47,3 +48,5 @@ No extra CSS added
 * [x] Add Impressum
 * [x] Add site to Github
 * [x] Add German Switch
+
+## Credits
