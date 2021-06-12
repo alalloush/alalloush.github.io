@@ -1,15 +1,30 @@
-# Al Alloush
-I've tried to build this website using only bulma for css and with minimal extra code. Still need to add more projects to portfolio.
+# alalloush.github.io
+A fully responsive mobile/desktop simple CV/Portfolio website built using:
+* Bulma
+* Bulma Modal FX
 
-# Todo:
+No extra CSS added 
+
+## Features
+* No extra CSS
+* Minimal JS
+* Fixed Navbar
+* Language Changer
+* Mobile View
+* Flex cards
+* Smooth Scrolling
 
 
-* [ ] Documentation
-	* [x] Navbar
-	* [] Main Hero
-	* [] Portfolio Hero
-* [ ] Update Plant Life
+
+## Todo:
+
+* [ ] Update Portfolio Projects
 * [ ] Fix CV
+* [x] Documentation
+	* [x] Scripts
+	* [x] Navbar
+	* [x] Main Hero
+	* [x] Portfolio Hero
 * [x] Add Portfolio
 * [x] New Wiremap
 * [x] Add Favicon
