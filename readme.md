@@ -2,6 +2,7 @@
 [Table of Contents](#alalloushgithubio)
   * [Description](#description)
   * [Features](#features)
+  * [Icon](#icon)
   * [Wireframe](#wireframe)
   * [Todo](#todo)
   
