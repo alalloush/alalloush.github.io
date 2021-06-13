@@ -33,8 +33,9 @@ No extra CSS added
 
 ## Todo
 
-* [ ] Update Portfolio Projects
+
 * [ ] Fix CV
+* [x] Update Portfolio Projects
 * [x] Documentation
 	* [x] Scripts
 	* [x] Navbar
