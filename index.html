@@ -44,14 +44,16 @@
     <!--Navbar-->
     <!--Set a white navbar to be fixed top-->
     <nav class="navbar is-white is-fixed-top is-family-monospace" role="navigation" aria-label="main navigation">
-        <div class="container"> <!--container to center horizontally-->
+        <div class="container">
+            <!--container to center horizontally-->
             <!--Navbar Brand (Logo + burger menu)-->
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
                     <img src="img/Logo.png" alt="Logo">
                 </a>
                 <!--Navbar burger menu for small screens needs empty spans to be placed-->
-                <a role="button" class="navbar-burger burger is-clipped" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <a role="button" class="navbar-burger burger is-clipped" aria-label="menu" aria-expanded="false"
+                    data-target="navbarMenu">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -63,10 +65,10 @@
                 <!--Left side of Navbar-->
                 <div class="navbar-start">
                     <span class="navbar-item">
-                    <span class="is-size-4 is-family-monospace">Alhusein Alloush</span>
+                        <span class="is-size-4 is-family-monospace">Alhusein Alloush</span>
                     </span>
                 </div>
-                
+
                 <div class="navbar-end">
                     <div class="tabs is-right">
 
@@ -123,205 +125,209 @@
                 </div>
             </div>
         </div>
-      </nav>
+    </nav>
 
-      <!--Main Hero-->
+    <!--Main Hero-->
     <section id="home" class="hero is-dark is-fullheight is-family-monospace">
-            <!--Hero Body-->
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns is-vcentered is-multiline">
+        <!--Hero Body-->
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered is-multiline">
 
-                        <!-- Profile Card-->
-                        <div class="column is-4 is-offset-1">
-                            <div class="card has-text-centered">
-                                <div class="card-image">
-                                    <figure class="image is-3by4">
-                                        <img src="img/Al.webp" alt="Share image">
-                                    </figure>
-                                </div>
-                                <div class="card-content">
+                    <!-- Profile Card-->
+                    <div class="column is-4 is-offset-1">
+                        <div class="card has-text-centered">
+                            <div class="card-image">
+                                <figure class="image is-3by4">
+                                    <img src="img/Al.webp" alt="Share image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
                                 <div class="media">
                                     <div class="media-content">
                                         <p lang="en" class="title is-4 has-text-black">Hi! I'm Al</p>
                                         <p lang="de" class="title is-4 has-text-black is-hidden">Hi! I'm Äl</p>
-                                        
-                                        <p lang="en" class="subtitle is-6 has-text-black">Programmer with a passion for design</p>
-                                        <p lang="de" class="subtitle is-6 has-text-black is-hidden">Programmierer mit einer Leidenschaft für Design</p>
-                                    </div>
-                                </div>
-                            
-                                    <div class="content">
-                                    <p lang="en">I'm a Computer Science student currently loving life in Bonn, Germany and finishing up my bachelors degree.</p>
-                                    <p lang="de" class="is-hidden">Ich bin Informatikstudent und liebe das Leben in Bonn, Deutschland, und beende meinen Bachelor-Abschluss.</p>
+
+                                        <p lang="en" class="subtitle is-6 has-text-black">Programmer with a passion for
+                                            design</p>
+                                        <p lang="de" class="subtitle is-6 has-text-black is-hidden">Programmierer mit
+                                            einer Leidenschaft für Design</p>
                                     </div>
                                 </div>
 
-                                <!--Footer with contact links-->
-                                <div class="card-footer">
-                                    <a href="mailto:alhusein.alloush@gmail.com" class="card-footer-item">
-                                        <div class="icon-text">
+                                <div class="content">
+                                    <p lang="en">I'm a Computer Science student currently loving life in Bonn, Germany
+                                        and finishing up my bachelors degree.</p>
+                                    <p lang="de" class="is-hidden">Ich bin Informatikstudent und liebe das Leben in
+                                        Bonn, Deutschland, und beende meinen Bachelor-Abschluss.</p>
+                                </div>
+                            </div>
+
+                            <!--Footer with contact links-->
+                            <div class="card-footer">
+                                <a href="mailto:alhusein.alloush@gmail.com" class="card-footer-item">
+                                    <div class="icon-text">
+                                        <span class="icon">
+                                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                                        </span>
+                                        <span>Email</span>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/alalloush" class="card-footer-item">
+                                    <span class="icon-text">
+                                        <span class="icon">
+                                            <i class="fab fa-github" aria-hidden="true"></i>
+                                        </span>
+                                        <span>Github</span>
+                                    </span>
+                                </a>
+
+                                <a href="https://github.com/alalloush" class="card-footer-item">
+                                    <span class="icon-text">
+                                        <span class="icon">
+                                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                        </span>
+                                        <span>CV</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Column to stack other two cards (Skills and Languages)-->
+                    <div class="column container is-offset-1">
+                        <div class="columns is-vcentered is-multiline">
+                            <!-- Skills-->
+                            <div class="column">
+                                <div class="card has-text-centered ">
+                                    <header class="card-header">
+                                        <p lang="en" class="card-header-title is-centered">
+                                            Skills
+                                        </p>
+                                        <p lang="de" class="card-header-title is-centered is-hidden">
+                                            Fähigkeiten
+                                        </p>
+                                        <div class="card-header-icon">
                                             <span class="icon">
-                                              <i class="fas fa-envelope" aria-hidden="true"></i>
+                                                <i class="fas fa-certificate"></i>
                                             </span>
-                                            <span>Email</span>
                                         </div>
-                                    </a>
-                                
-                                    <a href="https://github.com/alalloush" class="card-footer-item">
-                                        <span class="icon-text">
-                                            <span class="icon">
-                                              <i class="fab fa-github" aria-hidden="true"></i>
-                                            </span>
-                                            <span>Github</span>
-                                        </span>
-                                    </a>
+                                    </header>
 
-                                    <a href="https://github.com/alalloush" class="card-footer-item">
-                                        <span class="icon-text">
+                                    <div class="card-content columns">
+
+
+                                        <!--Programming Card-->
+                                        <div class="card has-text-centered column">
+                                            <header class="card-header">
+                                                <p lang="en" class="card-header-title is-centered">
+                                                    Programming
+                                                </p>
+                                                <p lang="de" class="card-header-title is-centered is-hidden">
+                                                    Programmierung
+                                                </p>
+                                                <span class="card-header-icon">
+                                                    <i class="fas fa-code"></i>
+                                                </span>
+                                            </header>
+                                            <div class="card-content">
+                                                <table class="table is-hoverable is-fullwidth">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>C</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Python</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Java</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>SQL</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>HTML/CSS</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Bash</td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <!--Design Card-->
+
+                                        <div class="card has-text-centered column">
+                                            <header class="card-header">
+                                                <p class="card-header-title is-centered">
+                                                    <span class="has-text-centered">Design</span>
+                                                </p>
+                                                <div class="card-header-icon">
+                                                    <span class="icon">
+                                                        <i class="fas fa-paint-brush"></i>
+                                                    </span>
+                                                </div>
+                                            </header>
+                                            <div class="card-content">
+                                                <table class="table is-hoverable is-fullwidth">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Wireframing</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Photoshop</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Illustrator</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Languages-->
+                            <div class="column">
+                                <div class="card">
+                                    <header class="card-header">
+                                        <p lang="en" class="card-header-title is-centered">
+                                            Languages
+                                        </p>
+                                        <p lang="de" class="card-header-title is-centered is-hidden">
+                                            Sprachen
+                                        </p>
+                                        <div class="card-header-icon">
                                             <span class="icon">
-                                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                                <i class="fas fa-language"></i>
                                             </span>
-                                            <span>CV</span>
-                                        </span>
-                                    </a>
+                                        </div>
+                                    </header>
+                                    <footer class="card-footer">
+                                        <span lang="en" class="card-footer-item">English</span>
+                                        <span lang="de" class="card-footer-item is-hidden">Englisch</span>
+                                        <span lang="en" class="card-footer-item">German</span>
+                                        <span lang="de" class="card-footer-item is-hidden">Deutsch</span>
+                                        <span lang="en" class="card-footer-item">Arabic</span>
+                                        <span lang="de" class="card-footer-item is-hidden">Arabisch</span>
+                                    </footer>
                                 </div>
                             </div>
                         </div>
-
-                        <!--Column to stack other two cards (Skills and Languages)-->
-                        <div class="column container is-offset-1">
-                            <div class="columns is-vcentered is-multiline">
-                                <!-- Skills-->
-                                <div class="column"> 
-                                    <div class="card has-text-centered ">
-                                        <header class="card-header">
-                                            <p lang="en" class="card-header-title is-centered">
-                                                Skills
-                                            </p>
-                                            <p lang="de" class="card-header-title is-centered is-hidden">
-                                                Fähigkeiten
-                                            </p>
-                                            <div class="card-header-icon">
-                                                <span class="icon">
-                                                    <i class="fas fa-certificate"></i>
-                                                </span>
-                                            </div>
-                                        </header>
-
-                                        <div class="card-content columns">
-                                            
-                            
-                                            <!--Programming Card-->
-                                            <div class="card has-text-centered column">
-                                                <header class="card-header">
-                                                    <p lang="en" class="card-header-title is-centered">
-                                                        Programming
-                                                    </p>
-                                                    <p lang="de" class="card-header-title is-centered is-hidden">
-                                                        Programmierung
-                                                    </p>
-                                                    <span class="card-header-icon">
-                                                        <i class="fas fa-code"></i>
-                                                    </span>
-                                                </header>
-                                                <div class="card-content">
-                                                    <table class="table is-hoverable is-fullwidth">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>C</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Python</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Java</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>SQL</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>HTML/CSS</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Bash</td>
-                                                            </tr>
-                                                            
-                                                    </tbody>
-                                                </table>
-                                                </div>
-                                            </div>
-
-                                            <!--Design Card-->
-
-                                            <div class="card has-text-centered column">
-                                                <header class="card-header">
-                                                    <p class="card-header-title is-centered">
-                                                        <span class="has-text-centered">Design</span> 
-                                                    </p>           
-                                                    <div class="card-header-icon">
-                                                        <span class="icon">
-                                                            <i class="fas fa-paint-brush"></i>
-                                                        </span>
-                                                    </div>
-                                                </header>
-                                                <div class="card-content">
-                                                    <table class="table is-hoverable is-fullwidth">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Wireframing</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Photoshop</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Illustrator</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div>
-
-                                <!-- Languages-->
-                                <div class="column"> 
-                                    <div class="card">
-                                        <header class="card-header">
-                                            <p lang="en" class="card-header-title is-centered">
-                                                Languages
-                                            </p>
-                                            <p lang="de" class="card-header-title is-centered is-hidden">
-                                                Sprachen
-                                            </p>
-                                            <div class="card-header-icon">
-                                                <span class="icon">
-                                                <i class="fas fa-language"></i>
-                                                </span>
-                                            </div>
-                                        </header>
-                                        <footer class="card-footer">
-                                            <span lang="en" class="card-footer-item">English</span>
-                                            <span lang="de" class="card-footer-item is-hidden">Englisch</span>
-                                            <span lang="en" class="card-footer-item">German</span>
-                                            <span lang="de" class="card-footer-item is-hidden">Deutsch</span>
-                                            <span lang="en" class="card-footer-item">Arabic</span>
-                                            <span lang="de" class="card-footer-item is-hidden">Arabisch</span>
-                                        </footer>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
                     </div>
                 </div>
             </div>
-            <!--Main Hero Footer-->
-            <div class="hero-foot has-text-centered container">
-                <nav class="tabs is-boxed is-fullwidth">
-                    <div class="container">
-                        <ul>
-                          <li class="is-active">
+        </div>
+        <!--Main Hero Footer-->
+        <div class="hero-foot has-text-centered container">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        <li class="is-active">
                             <a class="has-text-black has-text-weight-light" onclick="SmoothScroll('portfolio')">
                                 <div class="icon-text">
                                     <span class="icon">
@@ -331,21 +337,21 @@
                                     <span lang="de" class="is-hidden">Herunterscrollen!</span>
                                 </div>
                             </a>
-                          </li>
-                        </ul>
-                    </div> 
-                </nav>
-            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         </div>
     </section>
 
     <!--Portfolio Hero-->
-    <section  id="portfolio" class ="hero is-info is-fullheight-with-navbar has-text-centered is-family-monospace">
-        <div class="hero-head"> 
+    <section id="portfolio" class="hero is-info is-fullheight-with-navbar has-text-centered is-family-monospace">
+        <div class="hero-head">
             <div class="container">
                 <p class="title pt-5 is-1 block has-text-weight-bold is-family-monospace">
                     Portfolio
-                  </p>
+                </p>
 
             </div>
         </div>
@@ -357,17 +363,21 @@
                     <div class="column is-4">
                         <div class="card">
                             <div class="card-image">
-                            <figure class="image is-16by9">
-                                <img src="img/proj/project1.png" class="modal-button" data-target="modal-project1">
-                            </figure>
+                                <figure class="image is-16by9">
+                                    <img src="img/proj/project1.png" class="modal-button" data-target="modal-project1">
+                                </figure>
                             </div>
                             <div class="card-content">
-                            <div class="content has-text-centered">
-                                <h4>alalloush.github.io</h4>
-                                <p lang="en">This website is open source, click on the image to view, or click on the button to go to the Github page for the project.</p>
-                                <p lang="de" class="is-hidden">Diese Website ist quelloffen. Klicken Sie auf das Bild, um es anzusehen, oder klicken Sie auf die Schaltfläche, um zur Github-Seite für das Projekt zu gelangen.</p>
-                                <a class="button is-info modal-button" href="https://github.com/alalloush/alalloush.github.io">Github</a>
-                            </div>
+                                <div class="content has-text-centered">
+                                    <h4>alalloush.github.io</h4>
+                                    <p lang="en">This website is open source, click on the image to view, or click on
+                                        the button to go to the Github page for the project.</p>
+                                    <p lang="de" class="is-hidden">Diese Website ist quelloffen. Klicken Sie auf das
+                                        Bild, um es anzusehen, oder klicken Sie auf die Schaltfläche, um zur
+                                        Github-Seite für das Projekt zu gelangen.</p>
+                                    <a class="button is-info modal-button"
+                                        href="https://github.com/alalloush/alalloush.github.io">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -376,39 +386,41 @@
                     <div class="column is-3">
                         <div class="card">
                             <div class="card-image">
-                            <figure class="image is-4by5">
-                                <img src="img/proj/project2.png" class="modal-button" data-target="modal-project2">
-                            </figure>
+                                <figure class="image is-4by5">
+                                    <img src="img/proj/project2.png" class="modal-button" data-target="modal-project2">
+                                </figure>
                             </div>
                             <div class="card-content">
-                            <div class="content has-text-centered">
-                                <h4 lang="en">Website Wireframing</h4>
-                                <h4 lang="de" class="is-hidden">Webseiten-Wireframe</h4>
-                                <p lang="en">Wireframing and UX design with Figma</p>
-                                <p lang="de" class="is-hidden">Wireframing und UX-Design mit Figma</p>
-                                <a class="button is-info modal-button" href="https://github.com/alalloush/alalloush.github.io/tree/master/doc">Github</a>
-                            </div>
+                                <div class="content has-text-centered">
+                                    <h4 lang="en">Website Wireframing</h4>
+                                    <h4 lang="de" class="is-hidden">Webseiten-Wireframe</h4>
+                                    <p lang="en">Wireframing and UX design with Figma</p>
+                                    <p lang="de" class="is-hidden">Wireframing und UX-Design mit Figma</p>
+                                    <a class="button is-info modal-button"
+                                        href="https://github.com/alalloush/alalloush.github.io/tree/master/doc">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    
+
                     <!--Project 3 Card-->
                     <div class="column is-3">
                         <div class="card">
                             <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/proj/project3.png" class="modal-button" data-target="modal-project3">
-                            </figure>
+                                <figure class="image is-4by3">
+                                    <img src="img/proj/project3.png" class="modal-button" data-target="modal-project3">
+                                </figure>
                             </div>
                             <div class="card-content">
-                            <div class="content has-text-centered">
-                                <h4 lang="en">Plant Life</h4>
-                                <h4 lang="de" class="is-hidden">Pflanzenleben</h4>
-                                <p lang="en"> UX and UI design</p>
-                                <p lang="de" class="is-hidden"> UX- und UI-Design</p>
-                                <a class="button is-info modal-button" href="https://github.com/alalloush/Projects/tree/main/Plant%20Life">Github</a>
-                            </div>
+                                <div class="content has-text-centered">
+                                    <h4 lang="en">Plant Life</h4>
+                                    <h4 lang="de" class="is-hidden">Pflanzenleben</h4>
+                                    <p lang="en"> UX and UI design</p>
+                                    <p lang="de" class="is-hidden"> UX- und UI-Design</p>
+                                    <a class="button is-info modal-button"
+                                        href="https://github.com/alalloush/Projects/tree/main/Plant%20Life">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -417,71 +429,72 @@
         </div>
 
 
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
-    <nav class="tabs is-boxed is-right">
-      <div class="container">
-        <ul>
-            <li><a href="https://bulma.io">
-                <span lang="en">Made with Bulma</span>
-                <span lang="de" class="is-hidden">Gemacht mit Bulma</span>
-            </a></li>
-            <li><a class="modal-button" data-target="imprint-modal" lang="en">Imprint</a></li>
-            <li><a class="modal-button is-hidden" data-target="imprint-modal" lang="de">Impressum</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-    
-  <!--Modals-->
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+            <nav class="tabs is-boxed is-right">
+                <div class="container">
+                    <ul>
+                        <li><a href="https://bulma.io">
+                                <span lang="en">Made with Bulma</span>
+                                <span lang="de" class="is-hidden">Gemacht mit Bulma</span>
+                            </a></li>
+                        <li><a class="modal-button" data-target="imprint-modal" lang="en">Imprint</a></li>
+                        <li><a class="modal-button is-hidden" data-target="imprint-modal" lang="de">Impressum</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-    <!--Project 1-->
-    <div id="modal-project1" class="modal modal-fx-fadeInScale">
-        <div class="modal-background">
-        </div>
-        <div class="modal-content is-huge is-image">
-            <img src="img/proj/project1.png" alt="Project 1">
-        </div>
-    </div>
+        <!--Modals-->
 
-    <!--Project 2 (Wireframe)-->
-    <div id="modal-project2" class="modal modal-fx-fadeInScale">
-        <div class="modal-background">
+        <!--Project 1-->
+        <div id="modal-project1" class="modal modal-fx-fadeInScale">
+            <div class="modal-background">
+            </div>
+            <div class="modal-content is-huge is-image">
+                <img src="img/proj/project1.png" alt="Project 1">
+            </div>
         </div>
-        <div class="modal-content is-huge is-image">
-            <img src="img/proj/project2.png" alt="Project 2">
-        </div>
-    </div>
 
-    <!--Project 3 (Plant Life)-->
-    <div id="modal-project3" class="modal modal-fx-fadeInScale">
-        <div class="modal-background">
+        <!--Project 2 (Wireframe)-->
+        <div id="modal-project2" class="modal modal-fx-fadeInScale">
+            <div class="modal-background">
+            </div>
+            <div class="modal-content is-huge is-image">
+                <img src="img/proj/project2.png" alt="Project 2">
+            </div>
         </div>
-        <div class="modal-content is-huge is-image">
-            <img src="img/proj/project3.png" alt="Project 3">
-        </div>
-    </div>
 
-  <!--Imprint/Impressum Modal-->
-  <div id="imprint-modal" class="modal modal-fx-fadeInScale has-text-black">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-        <header class="modal-card-head">
-            <p lang="en" class="modal-card-title">Imprint</p>
-            <p lang ="de" class="modal-card-title is-hidden">Impressum</p>
-        </header>
-        <section class="modal-card-body">
-            <span lang="en" class="is-size-4">Contact</span>
-            <span lang="de" class="is-size-4 is-hidden">Kontact</span><br>
-            <span> Alhusein Alloush</span><br>
-            <span> Kirschallee 3a</span><br>
-            <span> 53115, Bonn</span> <br>
-            <span> <a href="alhusein.alloush@gmail.com">alhusein.alloush@gmail.com</a></span>
-        </section>
-    </div>
-  </div>
-    
-    <!--Bulma Modal FX Post load JS-->
-    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+        <!--Project 3 (Plant Life)-->
+        <div id="modal-project3" class="modal modal-fx-fadeInScale">
+            <div class="modal-background">
+            </div>
+            <div class="modal-content is-huge is-image">
+                <img src="img/proj/project3.png" alt="Project 3">
+            </div>
+        </div>
+
+        <!--Imprint/Impressum Modal-->
+        <div id="imprint-modal" class="modal modal-fx-fadeInScale has-text-black">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p lang="en" class="modal-card-title">Imprint</p>
+                    <p lang="de" class="modal-card-title is-hidden">Impressum</p>
+                </header>
+                <section class="modal-card-body">
+                    <span lang="en" class="is-size-4">Contact</span>
+                    <span lang="de" class="is-size-4 is-hidden">Kontact</span><br>
+                    <span> Alhusein Alloush</span><br>
+                    <span> Kirschallee 3a</span><br>
+                    <span> 53115, Bonn</span> <br>
+                    <span> <a href="alhusein.alloush@gmail.com">alhusein.alloush@gmail.com</a></span>
+                </section>
+            </div>
+        </div>
+
+        <!--Bulma Modal FX Post load JS-->
+        <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
 </body>
+
 </html>
