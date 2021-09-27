@@ -26,8 +26,7 @@ Script to switch language between English and German
 @since 12.6.2021
 @author @alalloush
 ---
-Description: Code was adapted and set to run on page load. It will add an event listener on the burger menu and toggle the menu. 
-It also takes the items from the dataset which is linked to the navbar items (navbarMenu) and enables them as well.
+Description: Toggles visiblilty of English/German text by toggling the "is-hidden" class. Default is English visible.
 */
 function switchLang() {
 
