@@ -13,7 +13,6 @@ A fully responsive mobile/desktop CV/Portfolio website built using:
 * [Bulma Modal FX](https://postare.github.io/bulma-modal-fx/)
 * [FontAwesome](https://fontawesome.com)
 
-Designed to 
 
 No extra CSS added 
 
