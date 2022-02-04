@@ -4,13 +4,16 @@
   * [Features](#features)
   * [Icon](#icon)
   * [Wireframe](#wireframe)
+  * [Performance Metrics](#performance)
   * [Todo](#todo)
   
 ## Description
-A fully responsive mobile/desktop simple CV/Portfolio website built using:
+A fully responsive mobile/desktop CV/Portfolio website built using:
 * [Bulma](https://bulma.io)
 * [Bulma Modal FX](https://postare.github.io/bulma-modal-fx/)
 * [FontAwesome](https://fontawesome.com)
+
+Designed to 
 
 No extra CSS added 
 
@@ -30,11 +33,15 @@ No extra CSS added
 ## Wireframe
 ![Wireframe](https://github.com/alalloush/alalloush.github.io/blob/master/doc/Wireframe.webp?raw=true)
 
+## Performance
+![performance](https://github.com/alalloush/alalloush.github.io/blob/master/doc/metrics.webp?raw=true)
+[GTMetrix](https://gtmetrix.com/reports/alalloush.github.io/Giqjs13i/)
+
 
 ## Todo
 
 
-* [ ] Fix CV
+* [X] Update CV
 * [x] Update Portfolio Projects
 * [x] Documentation
 	* [x] Scripts
@@ -50,4 +57,3 @@ No extra CSS added
 * [x] Add site to Github
 * [x] Add German Switch
 
-## Credits
