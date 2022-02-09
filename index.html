@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alhusein Alloush</title>
     <!--Favicon-->
-    <link rel="icon" type="image/svg+xml" href="/img/Logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/Logo.webp">
     <!-- 
     @name           FontAwesome
-    @since          17.12.2021
+    @since          09.02.2022
     @author         @FontAwesome
     @source         https://fontawesome.com
-    @version        5.15.4
+    @version        6
     @description    FontAwesome Icons
     -->
-    <script src="import/0969213fd1.js" crossorigin="anonymous"></script>
+    <link href="/assets/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.min.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.min.css" rel="stylesheet">
 
     <!-- 
     @name           Bulma
@@ -25,7 +27,7 @@
     @version        0.9.3
     @description    CSS Framework
     -->
-    <link rel="stylesheet" href="import/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
 
     <!-- 
     @name           Bulma Modal FX
@@ -35,9 +37,9 @@
     @version        1.1.0
     @description    Used for modal effects. JS file loaded at end of file.
     -->
-    <link rel="stylesheet" href="import/modal-fx.min.css" />
+    <link rel="stylesheet" href="/assets/css/modal-fx.min.css" />
     <!-- My scripts-->
-    <script src="/js/script.js" type="text/javascript"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -49,7 +51,7 @@
             <!--Navbar Brand (Logo + burger menu)-->
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
-                    <img src="img/Logo.webp" alt="Logo">
+                    <img src="/assets/img/Logo.webp" alt="Logo">
                 </a>
                 <!--Navbar burger menu for small screens needs empty spans to be placed-->
                 <a role="button" class="navbar-burger burger is-clipped" aria-label="menu" aria-expanded="false"
@@ -99,7 +101,9 @@
 
                         <!--Github Navbar Item-->
                         <span class="navbar-item">
-                            <a class="button is-dark is-outlined" href="https://github.com/alalloush">
+                            <a class="button is-dark is-outlined" 
+                                target = "_blank"
+                                href="https://github.com/alalloush">
                                 <div class="icon-text">
                                     <span class="icon">
                                         <i class="fab fa-github" aria-hidden="true"></i>
@@ -139,7 +143,7 @@
                         <div class="card has-text-centered">
                             <div class="card-image">
                                 <figure class="image is-3by4">
-                                    <img src="img/Al.webp" alt="Share image">
+                                    <img src="/assets/img/Al.webp" alt="Al">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -384,7 +388,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-16by9">
-                                    <img src="img/proj/project1.webp" class="modal-button" data-target="modal-project1">
+                                    <img src="/assets/img/proj/project1.webp" class="modal-button" data-target="modal-project1">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -409,7 +413,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-4by5">
-                                    <img src="img/proj/project2.webp" class="modal-button" data-target="modal-project2">
+                                    <img src="/assets/img/proj/project2.webp" class="modal-button" data-target="modal-project2">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -432,7 +436,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="img/proj/project3.webp" class="modal-button" data-target="modal-project3">
+                                    <img src="/assets/img/proj/project3.webp" class="modal-button" data-target="modal-project3">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -479,7 +483,7 @@
             <div class="modal-background">
             </div>
             <div class="modal-content is-huge is-image">
-                <img src="img/proj/project1.webp" alt="Project 1">
+                <img src="/assets/img/proj/project1.webp" alt="Project 1">
             </div>
         </div>
 
@@ -488,7 +492,7 @@
             <div class="modal-background">
             </div>
             <div class="modal-content is-huge is-image">
-                <img src="img/proj/project2.webp" alt="Project 2">
+                <img src="/assets/img/proj/project2.webp" alt="Project 2">
             </div>
         </div>
 
@@ -497,7 +501,7 @@
             <div class="modal-background">
             </div>
             <div class="modal-content is-huge is-image">
-                <img src="img/proj/project3.webp" alt="Project 3">
+                <img src="/assets/img/proj/project3.webp" alt="Project 3">
             </div>
         </div>
 
@@ -521,7 +525,7 @@
         </div>
 
         <!--Bulma Modal FX Post load JS-->
-        <script src="import/modal-fx.min.js"></script>
+        <script src="assets/js/modal-fx.min.js"></script>
 </body>
 
 </html>
