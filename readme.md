@@ -36,7 +36,7 @@ No extra CSS added
 This website was designed from the ground up to be as light and performant as possible while delivering the feature set required.
 Files are optimized in size and load order is organized to reduce interactive content load.
 
-![performance](https://github.com/alalloush/alalloush.github.io/blob/master/doc/metrics.webp?raw=true)
+![performance](https://github.com/alalloush/alalloush.github.io/blob/master/doc/metrics2.webp?raw=true)
 [GTMetrix](https://gtmetrix.com/reports/alalloush.github.io/Giqjs13i/)
 
 
